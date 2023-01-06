@@ -1,0 +1,52 @@
+/* Css Resets  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header area style  */
+
+#header{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner{
+    /* box-sizing: border-box; */
+    text-align: right ;  
+    position: relative;
+    top: 25%;
+    padding-right: 170px;
+    margin-left: 850px;
+}
+
+.banner-title{
+    color: white;
+    font-size: 52px;
+}
+
+.banner-description{
+    margin: 20px 0px;
+    color: white;
+}
+
+
+
+
+
+/* utility Classes  */
+
+.btn{
+    background-color: white;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(64, 148, 251);
+    font-weight: bold;
+
+}
