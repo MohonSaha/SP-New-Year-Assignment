@@ -34,7 +34,24 @@
     color: white;
 }
 
+/* Style main area  */
 
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* Style My failure area  */
+
+.my-failure{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.failure-list{
+    margin-right: 150px;
+}
 
 
 
@@ -48,5 +65,8 @@
     font-size: 14px;
     color: rgb(64, 148, 251);
     font-weight: bold;
+}
 
+.container{
+    margin-top: 150px;
 }
