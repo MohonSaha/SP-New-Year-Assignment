@@ -104,6 +104,30 @@ main{
     margin-bottom: 20px;
 }
 
+/* Start time area  */
+
+.items{
+    display: flex;
+    gap: 30px;
+}
+
+.item{
+    
+    text-align: center;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 30px 30px;
+}
+
+.item img{
+    width: 50px;
+}
+
+.item-title{
+    margin: 10px 0px;
+}
+
+
 /* Start footer area  */
 
 footer{
