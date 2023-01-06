@@ -97,6 +97,84 @@ main{
     margin-bottom: 20px;
 }
 
+/* Start footer area  */
+
+footer{
+    background-color: black;
+    height: 400px;
+    
+    
+}
+
+.footer-content{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    max-width: 1040px;
+    margin: 0px auto;
+    padding: 100px 0px;
+    
+}
+
+.contact{
+    width: 400px;
+}
+
+.contact-title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.contact-description{
+    
+    margin: 15px 0px;
+    color: white;
+}
+
+.contact-mail{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.contact-phone{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.socials a{
+    margin-right: 6px;
+}
+
+.socials img{
+    width: 32px;
+}
+
+.subscribe-title{
+    color: skyblue;
+    margin-bottom: 12px;
+}
+
+.subscribe input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.subscribe-btn{
+    background-color: rgb(39, 191, 251);
+    color: white;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;   
+    cursor: pointer;
+}
+
 
 
 
@@ -113,6 +191,7 @@ main{
     font-size: 14px;
     color: rgb(64, 148, 251);
     font-weight: bold;
+    cursor: pointer;
 }
 
 .container{
