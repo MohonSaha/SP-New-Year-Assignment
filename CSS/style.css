@@ -50,8 +50,22 @@ main{
     gap: 70px;
 }
 
+.failure-description{
+    margin: 30px 0px;
+}
+
+.fa-regular{
+    margin-bottom: 10px;
+    color: green;
+}
+
+.failure-title{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
 .failure-list{
-    margin-right: 150px;
+    margin-right: 110px;
 }
 
 /* Style my plan area  */
@@ -61,12 +75,6 @@ main{
     justify-content: space-around;
     gap: 15px;
     text-align: center;
-}
-
-.plans-title{
-    text-align: center;
-    margin-bottom: 60px;
-    font-size: 30px;
 }
 
 .plan-title{
@@ -129,6 +137,12 @@ main{
 
 /* start my commitment area  */
 
+.my-commitment{
+    background-color: rgb(251, 235, 226);
+    padding-top: 40px;
+    padding-left:58px;
+    border-radius: 10px;
+}
 .commitments{
     display: flex;
     gap: 80px;
@@ -156,20 +170,12 @@ main{
     width: 56px;
 }
 
-
-
-
-
-
-
 /* Start footer area  */
 
 footer{
     background-color: black;
     height: 70vh;
     margin-bottom: 0px;
-    
-    
 }
 
 .footer-content{
@@ -263,3 +269,11 @@ footer{
 .container{
     margin-top: 150px;
 }
+
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+}
+
