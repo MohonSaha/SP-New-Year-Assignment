@@ -78,6 +78,30 @@ main{
     color: #757575;
 }
 
+ /* Style gradient area  */
+
+ .gradient{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+ }
+
+.gradient-content{
+    position: relative;
+    top: -215px;
+    right: -68px;
+    width: 250px;
+}
+
+.gradient-title{
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
 
 /* utility Classes  */
 
