@@ -37,7 +37,7 @@
 /* Style main area  */
 
 main{
-    max-width: 1140px;
+    max-width: 1040px;
     margin: 0px auto;
 }
 
@@ -53,6 +53,30 @@ main{
     margin-right: 150px;
 }
 
+/* Style my plan area  */
+
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    text-align: center;
+}
+
+.plans-title{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.plan-title{
+    margin: 16px 0px;
+    font-size:22px;
+}
+
+.plan-description{
+    font-size: 20px;
+    color: #757575;
+}
 
 
 /* utility Classes  */
