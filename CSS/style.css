@@ -6,6 +6,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Header area style  */
 
 #header{
@@ -16,8 +20,50 @@
     height: 100vh;
 }
 
+/* Navbar section style  */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0px auto;
+    padding-top: 15px;
+}
+.left-nav img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.left-nav, .right-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.right-nav ul li{
+    list-style: none ;
+    margin-left: 12px;
+}
+
+.right-nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 3px 22px;
+    border-radius: 22px;
+    color: white;
+}
+
+.right-nav ul li a:hover{
+    background-color: white;
+    color: rgb(44, 156, 249);
+    font-weight: bold;
+}
+
+/* Banner style  */
+
 .banner{
-    /* box-sizing: border-box; */
     text-align: right ;  
     position: relative;
     top: 25%;
